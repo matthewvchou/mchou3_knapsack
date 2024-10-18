@@ -72,8 +72,8 @@ def solve(solution: list[int], total: int, index: int, target: int, coins: list[
 
 
 def main():
-    # Check if a filename is passed as argument
-    if len(sys.argv) < 2:
+    # Check if a filenames are passed as argument
+    if len(sys.argv) < 3:
         print("Usage: python3 knapsack_solver_mchou3.py <input.csv> <output.csv>")
         sys.exit(1)
 
